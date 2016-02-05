@@ -1,0 +1,725 @@
+SignUpViewController.swift
+	class SignUpViewController: UIViewController, UIPopoverPresentationControllerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, GenderPickerViewControllerDelegate
+	@IBOutlet weak var backToLoginBtnCons: NSLayoutConstraint!
+	@IBOutlet weak var changePhotoButton: UIButton!
+	@IBOutlet weak var profilePhoto: UIImageView!
+	@IBOutlet weak var createButton: UIButton!
+	@IBOutlet weak var genderText: UITextField!
+	@IBOutlet weak var genderButton: UIButton!
+	@IBOutlet weak var emailTextField: UITextField!
+	@IBOutlet weak var nicknameTextField: UITextField!
+	@IBOutlet weak var passwordTextField: UITextField!
+	@IBOutlet weak var confirmPWTextField: UITextField!
+	@IBOutlet weak var fbSignupButton: UIButton!
+	var showKeyboard = false
+	let login = Login()
+	let defaults = NSUserDefaults.standardUserDefaults()
+	var setPhoto = false
+	override func viewDidLoad()
+	func keyboardWillShow(notification:NSNotification)
+	func keyboardWillHide(notification:NSNotification)
+	func adjustingHeight(show:Bool, notification:NSNotification)
+	override func viewWillDisappear(animated: Bool)
+	@IBAction func genderButton(sender: UIButton)
+	@IBAction func changePhoto(sender: UIButton)
+	@IBAction func fbSignup(sender: UIButton)
+	func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!)
+	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+	func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle
+LaunchViewController.swift
+	class LauchViewController: UIViewController
+	override func viewDidAppear(animated: Bool)
+	override func viewDidLoad()
+PopStartTimeViewController.swift
+	protocol StartTimePickerViewControllerDelegate : class
+	func startTimePickerVCDismissed(date : NSDate?)
+	@IBOutlet weak var startTimePicker: UIDatePicker!
+	weak var delegate : StartTimePickerViewControllerDelegate?
+	var currentDate : NSDate?
+	convenience init()
+	@IBAction func okAction(sender: AnyObject)
+	override func viewDidLoad()
+	override func viewDidDisappear(animated: Bool)
+PopActivityPicker.swift
+	var activityPickerVC : PopActivityViewController
+	var popover : UIPopoverPresentationController?
+	var textField : UITextField!
+	var dataChanged : PopActivityPickerCallback?
+	var presented = false
+	var offset : CGFloat = 8.0
+	var initActivityStr = ""
+	public init(forTextField: UITextField)
+	public func adaptivePresentationStyleForPresentationController(PC: UIPresentationController) -> UIModalPresentationStyle
+SwiftyJSON.swift
+	public let ErrorIndexOutOfBounds: Int! = 900
+	public let ErrorWrongType: Int! = 901
+	public let ErrorNotExist: Int! = 500
+	public let ErrorInvalidJSON: Int! = 490
+	case Number
+	case String
+	case Bool
+	case Array
+	case Dictionary
+	case Null
+	case Unknown
+	public struct JSON
+	public static var null: JSON { get { return JSON(NSNull()) } }
+	public struct JSON
+	public var startIndex: JSON.Index
+	public var endIndex: JSON.Index
+	public func underestimateCount() -> Int
+	public struct JSONIndex: ForwardIndexType, _Incrementable, Equatable, Comparable
+	let arrayIndex: Int?
+	let dictionaryIndex: DictionaryIndex<String, AnyObject>?
+	let type: Type
+	init()
+	init(arrayIndex: Int)
+	init(dictionaryIndex: DictionaryIndex<String, AnyObject>)
+	public func successor() -> JSONIndex
+	public func ==(lhs: JSONIndex, rhs: JSONIndex) -> Bool
+	public func <(lhs: JSONIndex, rhs: JSONIndex) -> Bool
+	public func <=(lhs: JSONIndex, rhs: JSONIndex) -> Bool
+	public func >=(lhs: JSONIndex, rhs: JSONIndex) -> Bool
+	public func >(lhs: JSONIndex, rhs: JSONIndex) -> Bool
+	public struct JSONGenerator : GeneratorType
+	init(_ json: JSON)
+	public mutating func next() -> JSONGenerator.Element?
+	case Index(Int)
+	case Key(String)
+	public protocol JSONSubscriptType
+	var jsonKey:JSONKey { get }
+	public var jsonKey:JSONKey
+	public var jsonKey:JSONKey
+	public struct JSON
+	public init(stringLiteral value: StringLiteralType)
+	public init(extendedGraphemeClusterLiteral value: StringLiteralType)
+	public init(unicodeScalarLiteral value: StringLiteralType)
+	public struct JSON
+	public init(integerLiteral value: IntegerLiteralType)
+	public struct JSON
+	public init(booleanLiteral value: BooleanLiteralType)
+	public struct JSON
+	public init(floatLiteral value: FloatLiteralType)
+	public struct JSON
+	public init(dictionaryLiteral elements: (String, AnyObject)...)
+	public struct JSON
+	public init(arrayLiteral elements: AnyObject...)
+	public struct JSON
+	public init(nilLiteral: ())
+	public struct JSON
+	public init?(rawValue: AnyObject)
+	public var rawValue: AnyObject
+	public func rawData(options opt: NSJSONWritingOptions = NSJSONWritingOptions(rawValue: 0)) throws -> NSData
+	public func rawString(encoding: UInt = NSUTF8StringEncoding, options opt: NSJSONWritingOptions = .PrettyPrinted) -> String?
+	public struct JSON
+	public var description: String
+	public var debugDescription: String
+	public struct JSON
+	public var array: [JSON]?
+	public var arrayValue: [JSON]
+	public var arrayObject: [AnyObject]?
+	public struct JSON
+	public var dictionary: [String : JSON]?
+	public var dictionaryValue: [String : JSON]
+	public var dictionaryObject: [String : AnyObject]?
+	public struct JSON
+	public var bool: Bool?
+	public var boolValue: Bool
+	public struct JSON
+	public var string: String?
+	public var stringValue: String
+	public struct JSON
+	public var number: NSNumber?
+	public var numberValue: NSNumber
+	public struct JSON
+	public var null: NSNull?
+	public func isExists() -> Bool
+	public struct JSON
+	public var URL: NSURL?
+	public struct JSON
+	public var double: Double?
+	public var doubleValue: Double
+	public var float: Float?
+	public var floatValue: Float
+	public var int: Int?
+	public var intValue: Int
+	public var uInt: UInt?
+	public var uIntValue: UInt
+	public var int8: Int8?
+	public var int8Value: Int8
+	public var uInt8: UInt8?
+	public var uInt8Value: UInt8
+	public var int16: Int16?
+	public var int16Value: Int16
+	public var uInt16: UInt16?
+	public var uInt16Value: UInt16
+	public var int32: Int32?
+	public var int32Value: Int32
+	public var uInt32: UInt32?
+	public var uInt32Value: UInt32
+	public var int64: Int64?
+	public var int64Value: Int64
+	public var uInt64: UInt64?
+	public var uInt64Value: UInt64
+	public func ==(lhs: JSON, rhs: JSON) -> Bool
+	public func <=(lhs: JSON, rhs: JSON) -> Bool
+	public func >=(lhs: JSON, rhs: JSON) -> Bool
+	public func >(lhs: JSON, rhs: JSON) -> Bool
+	public func <(lhs: JSON, rhs: JSON) -> Bool
+	var isBool:Bool
+	public func ==(lhs: NSNumber, rhs: NSNumber) -> Bool
+	public func !=(lhs: NSNumber, rhs: NSNumber) -> Bool
+	public func <(lhs: NSNumber, rhs: NSNumber) -> Bool
+	public func >(lhs: NSNumber, rhs: NSNumber) -> Bool
+	public func <=(lhs: NSNumber, rhs: NSNumber) -> Bool
+	public func >=(lhs: NSNumber, rhs: NSNumber) -> Bool
+LeftMenu.swift
+	class LeftMenu : UITableViewController
+	let menuOptions = ["Profile", "Preference", "My Activity", "Change Password", "Sign Out"]
+	class LeftMenu : UITableViewController
+	override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+	class LeftMenu : UITableViewController
+	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+PasswordChecker.swift
+	func checkTextSufficientComplexity(let text : String) -> (pass:Bool, errmsg:String)
+PopStartTimePicker.swift
+	var startTimePickerVC : PopStartTimeViewController
+	var popover : UIPopoverPresentationController?
+	var textField : UITextField!
+	var dataChanged : PopStartTimePickerCallback?
+	var presented = false
+	var offset : CGFloat = 8.0
+	public init(forTextField: UITextField)
+	public func pick(inViewController : UIViewController, initStartTime : NSDate?, dataChanged : PopStartTimePickerCallback)
+	public func adaptivePresentationStyleForPresentationController(PC: UIPresentationController) -> UIModalPresentationStyle
+Login.swift
+	let defaults = NSUserDefaults.standardUserDefaults()
+	func login(email: String, password: String, complete: (status: Int) -> Void)
+	func authFB(fbToken: String, name: String, email: String, gender: String, avatarUrl: String, complete: (status: Int) -> Void)
+	func parseLoginJSON(json: JSON) -> (status: Int, uid: Int, name: String, avatarUrl: String, authtoken: String)
+	func getUserInfoByFB(fbUserID: String, email: String, avatarUrl: String, friendList: [String]) -> Bool
+	func fbLogin(fromViewController: UIViewController, complete: (status: Int) -> Void)
+	func signupByEmail(email: String, password: String, name: String, gender: String, avatarUrl: String, fbToken: String, mode: String, complete: (status: Int) -> Void)
+	func resetPassword(email: String) -> Int
+MapViewViewController.swift
+	@IBAction func toFilterButton(sender: UIButton)
+	var locationManager:CLLocationManager!
+	var mapView : GMSMapView!
+	var nearbyActivityList : NearbyActivityList!
+	var markerIcons = ["Basketball":UIImage(named: "Basketball"), "Badminton":UIImage(named: "Basketball"), "Jogging":UIImage(named: "Basketball"), "Gym":UIImage(named: "Basketball"), "Tennis":UIImage(named: "Basketball")]
+	override func viewDidLoad()
+	override func didReceiveMemoryWarning()
+	@IBAction func toggleMenu(sender: AnyObject)
+DateUtils.swift
+	func toDatetimeString() -> NSString?
+	class func durationStrFromHM(h:String, m:String) -> NSString?
+	public class func durationStrFromInt(duration: Int) -> NSString?
+	func roundToTenMinutes() -> NSDate
+	func toDurationSeconds() -> Int?
+PopActivityViewController.swift
+	protocol ActivityPickerViewControllerDelegate : class
+	func activityPickerVCDismissed(activity : String?)
+	@IBOutlet weak var activityPicker: UIPickerView!
+	weak var delegate : ActivityPickerViewControllerDelegate?
+	var chosen : Int?
+	let pickerActivityData = ["Basketball", "Badminton", "Jogging", "Gym", "Tennis"]
+	func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int
+	func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int
+	func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?
+	func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int)
+	var currentActivity : String?
+	convenience init()
+	@IBAction func okAction(sender: AnyObject)
+	override func viewDidLoad()
+	override func viewDidDisappear(animated: Bool)
+PopDurationPicker.swift
+	var durationPickerVC : PopDurationViewController
+	var popover : UIPopoverPresentationController?
+	var textField : UITextField!
+	var dataChanged : PopDurationPickerCallback?
+	var presented = false
+	var offset : CGFloat = 8.0
+	public init(forTextField: UITextField)
+	public func pick(inViewController : UIViewController, initDuration : NSDate?, dataChanged : PopDurationPickerCallback)
+	public func adaptivePresentationStyleForPresentationController(PC: UIPresentationController) -> UIModalPresentationStyle
+PopDurationViewController.swift
+	protocol DurationPickerViewControllerDelegate : class
+	func durationPickerVCDismissed(duration : NSDate?)
+	@IBOutlet weak var durationPicker: UIDatePicker!
+	weak var delegate : DurationPickerViewControllerDelegate?
+	var currentDuration : NSDate?
+	convenience init()
+	@IBAction func okAction(sender: AnyObject)
+	override func viewDidLoad()
+	override func viewDidDisappear(animated: Bool)
+SecurityViewController.swift
+	class SecurityViewController:UIViewController
+	@IBOutlet weak var text: UITextField!
+	@IBAction func encryptBtn(sender: UIButton)
+	override func viewDidLoad()
+RatingTableViewCell.swift
+	class RatingTableViewCell: UITableViewCell
+	@IBOutlet weak var nameLabel: UILabel!
+	@IBOutlet weak var photoImageView: UIImageView!
+	@IBOutlet weak var ratingControl: RatingControl!
+	var uid: Int?
+	var rating: Rating?
+	func updateUI()
+RatingControl.swift
+	class RatingControl: UIView
+	var rating = 0
+	var initRating: Int?
+	var ratingButtons = [UIButton]()
+	var spacing = 5
+	var stars = 5
+	required init?(coder aDecoder: NSCoder)
+	override func layoutSubviews()
+	override func intrinsicContentSize() -> CGSize
+	func ratingButtonTapped(button: UIButton)
+	func updateButtonSelectionStates()
+AvatarCell.swift
+	class AvatarCell : UITableViewCell, UICollectionViewDataSource
+	var isObserving = false;
+	@IBOutlet weak var avatarCollectionView: UICollectionView!
+	var imageArray = [UIImage]()
+	func checkHeight()
+	func initContent()
+	func watchFrameChanges()
+	func ignoreFrameChanges()
+	override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>)
+	func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+	func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
+LoginViewController.swift
+	let defaults = NSUserDefaults.standardUserDefaults()
+	let login = Login()
+	override func viewDidLoad()
+	@IBAction func forgetPW(sender: UIButton)
+ResetPasswordViewController.swift
+	class ResetPasswordViewController: UIViewController
+	@IBOutlet weak var resetButtonUI: UIButton!
+	@IBOutlet weak var sendButtonUI: UIButton!
+	@IBOutlet weak var email: UITextField!
+	@IBOutlet weak var validationCode: UITextField!
+	@IBOutlet weak var newPassword: UITextField!
+	@IBOutlet weak var confirmPassword: UITextField!
+	override func viewDidLoad()
+	override func didReceiveMemoryWarning()
+	@IBAction func sendValidationCodeToEmail(sender: AnyObject)
+	@IBAction func resetPassword(sender: AnyObject)
+ProfileRatingView.swift
+	class ProfileRatingView: UIView
+	var rating = 0
+	var ratingButtons = [UIButton]()
+	var spacing = 0
+	var stars = 0
+	func show()
+	override func layoutSubviews()
+Test.swift
+	class Test
+	var a: Int = 0
+	init(value: Int)
+	func ask()
+BeforeLoginViewController.swift
+	class BeforeLoginViewController: UIViewController
+	override func viewDidAppear(animated: Bool)
+Util.swift
+	var uncompressedPNGData: NSData      { return UIImagePNGRepresentation(self)!        }
+	var highestQualityJPEGNSData: NSData { return UIImageJPEGRepresentation(self, 1.0)!  }
+	var highQualityJPEGNSData: NSData    { return UIImageJPEGRepresentation(self, 0.75)! }
+	var mediumQualityJPEGNSData: NSData  { return UIImageJPEGRepresentation(self, 0.5)!  }
+	var lowQualityJPEGNSData: NSData     { return UIImageJPEGRepresentation(self, 0.25)! }
+	var lowestQualityJPEGNSData:NSData   { return UIImageJPEGRepresentation(self, 0.0)!  }
+ActivityTypeCell.swift
+	class ActivityTypeCell: UITableViewCell
+	@IBOutlet var activityTypeName: UILabel!
+	var _isSelected:Bool!
+	override func awakeFromNib()
+	override func drawRect(rect: CGRect)
+	func initContent()
+	func updateCell(activityType: String, isSelected:Bool)
+	func didSelect()
+	func show()
+Rating.swift
+	class Rating
+	var uID: Int?
+	var name: String?
+	var avatar: UIImage?
+	var rating: Int?
+	var gender: String?
+	var avgRating: Float?
+	var ratedTimes: Int?
+	var totalGrade: Double?
+	init(uID: Int, name: String, avatar: UIImage?, gender: String, rating: Int) { //FIXME
+	func computeRating()
+TabVCTemplate.swift
+	class TabVCTemplate : UIViewController
+	var selectedTab = 0
+	override func viewDidLoad()
+	deinit
+	override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?)
+	func openProfileWindow()
+	func openPreferenceWindow()
+	func openMyactivityWindow()
+	func openChangePwWindow()
+	func openSignoutWindow()
+Map.swift
+	class Map
+	init()
+	func refreshMap()
+	func showActivity()
+	func changeScale()
+	func changeLocation()
+	func resetLocation()
+Place.swift
+	public class Place : NSObject
+	public var name: String?
+	public var placeID: String?
+	public var coordinate: CLLocationCoordinate2D?
+	public var formattedAddress: String?
+	class func parsePlace(decoder: JSONDecoder) -> Place?
+	class func parsePlaceList(decoder: JSONDecoder) -> [Place]
+ActivityCell.swift
+	class ActivityCell: UITableViewCell
+	@IBOutlet weak var avatarImg: UIImageView!
+	@IBOutlet weak var activityType: UILabel!
+	@IBOutlet weak var location: UILabel!
+	@IBOutlet weak var time: UILabel!
+	@IBOutlet weak var groupNum: UILabel!
+	@IBOutlet weak var activityTypeImage: UIImageView!
+	var actId: Int!
+	var request: Alamofire.Request?
+	override func awakeFromNib()
+	override func drawRect(rect: CGRect)
+ActivityDetailViewController.swift
+	@IBOutlet weak var tableView: UITableView!
+	@IBOutlet weak var mapView: GMSMapView!
+	@IBOutlet weak var activityType: UILabel!
+	@IBOutlet weak var duration: UILabel!
+	@IBOutlet weak var groupSizeInfo: UILabel!
+	@IBOutlet weak var location: UILabel!
+	@IBOutlet weak var joinOrDrop: UIButton!
+	let locationManager = CLLocationManager()
+	var coord = CLLocationCoordinate2D()
+	var activityId: Int?
+	var groupFull: Bool?
+	var currentActivity: Activity?
+	var inTheActivity:Bool?
+	var selectedIndexPath : NSIndexPath?
+	let list = ["1", "2", "3", "4"]
+	var imageArray = [UIImage]()
+	var expanded:Bool = false
+	var clickExpand:Bool = false;
+	let defaults = NSUserDefaults.standardUserDefaults()
+	var userID: Int?
+	var authtoken: String?
+	override func viewDidLoad()
+	override func didReceiveMemoryWarning()
+	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+	func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+	func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath)
+	func tableView(tableView: UITableView, didEndDisplayingCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath)
+	func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat
+	override func viewWillAppear(animated: Bool)
+	override func viewWillDisappear(animated: Bool)
+	func InitUI()
+	func getActivity(complete:(status:Int) -> Void)
+	func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus)
+	func parseJSON(json: JSON, complete:(isDone:Bool) -> Void)
+	func showActivityGeoInfo()
+GlobalVar.swift
+	var test: Test=Test(value: 10)
+	var user: User?
+	var userID : Int = 1
+	var baseColor =  UIColor(red: 98, green: 163, blue: 197, alpha: 1)
+	var devTestMode: Int = 1 //1:dev, 0:test
+	let APIURL = "https://morning-brook-7884.herokuapp.com"
+	let GMS_QUERY_KEY = "AIzaSyCguCz0Pqeqx_ghaI6OqkUsW5xH-AzqX6g"
+	let GMS_QUERY_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json"
+	let ImgURLBase = "https://s3.amazonaws.com/swift-test-letsgo/test/"
+Activity.swift
+	enum ACTIVITYTYPE: String
+	case BASKETBALL = "Basketball"
+	case BADMINITON = "Badminton"
+	case JOGGING = "Jogging"
+	case GYM = "Gym"
+	case TENNIS = "Tennis"
+	class Activity
+	var activityId: Int
+	var duration: String?
+	var activityType: String
+	var members: [User]?
+	var geoInfo : [Double?]
+	var location: String
+	var time: String
+	var groupSize: Int
+	var memberNumber: Int
+	var avatarUrl: String?
+	class func sendActivity(urlString: String?, parameterDict: [String:NSObject], complete:(status: Int) -> Void)
+	init(activityId: Int, activityType: String, location: String, time: String, groupSize: Int, geoInfo : [Double?], members:[User])
+	init(result: JSON)
+	func showDetail()
+	func showAbstract()
+	func addMember()
+	func removeMember()
+	func memberType()
+S3Uploader.swift
+	class S3Uploader
+	var uploadRequest:AWSS3TransferManagerUploadRequest?
+	let defaults = NSUserDefaults.standardUserDefaults()
+	var userID: String!
+	var authtoken: String!
+	init()
+	func uploadToS3(avatar: UIImageView, imgName: String) ->  String
+Filter.swift
+	class Filter
+	var filter: [(activityType:ACTIVITYTYPE, isFilter:Bool)]?
+	init()
+	func update()
+	func fetch()
+Preference.swift
+	class Preference
+	var visibleToNearby: Bool?
+	var visibleToFriends: Bool?
+	init()
+	func update()
+	func fetch()
+FilterController.swift
+	class FilterController: UIViewController, UITableViewDelegate, UITableViewDataSource
+	var activityTypeArr = ["Basketball", "Badminton", "Tennis", "Jogging", "Gym"]
+	var filterDict:[String:Bool!]!
+	@IBOutlet weak var filterTableView: UITableView!
+	override func viewDidLoad()
+	func back(sender: UIBarButtonItem)
+	func sendFilter(complete:(status:Int) -> Void)
+	func numberOfSectionsInTableView(tableView: UITableView) -> Int
+	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+	func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat
+NewActivityViewController.swift
+	@IBOutlet weak var confirmLayoutCons: NSLayoutConstraint!
+	var popActivityPicker : PopActivityPicker?
+	var popStartTimePicker : PopStartTimePicker?
+	var popDurationPicker : PopDurationPicker?
+	@IBOutlet weak var contentView: UIView!
+	@IBOutlet weak var scrollView: UIScrollView!
+	@IBOutlet weak var activityTextField: UITextField!
+	@IBOutlet weak var startTimeTextField: UITextField!
+	@IBOutlet weak var durationTextField: UITextField!
+	@IBOutlet weak var groupSize: UITextField!
+	@IBOutlet weak var location: UITextField!
+	@IBOutlet weak var titleLabel: UILabel!
+	@IBOutlet weak var comments: UITextField!
+	var mapView : GMSMapView!
+	var locationManager:CLLocationManager!
+	var placeList : [Place]?
+	var selectedPlace : Place?
+	var startTimeDate, durationDate : NSDate?
+	var startTimeDate, durationDate : NSDate?
+	var durationValue : [Int]?
+	var response : NSHTTPURLResponse?
+	var urlString:String?
+	@IBOutlet weak var confirmButton: UIButton!
+	override func didReceiveMemoryWarning()
+	func textFieldDidEndEditing(textField: UITextField)
+	func updateMapView(location : UITextField?, complete: (status: Int) -> Void)
+	func didUpdatePlaceList()
+	func mapView(mapView: GMSMapView!, didTapInfoWindowOfMarker marker: GMSMarker!)
+	func textFieldShouldReturn(textField: UITextField) -> Bool
+	override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?)
+	func textFieldShouldBeginEditing(textField: UITextField) -> Bool
+	override func viewDidLayoutSubviews()
+	func firstIllegalField() -> String?
+	override func viewDidLoad()
+	func keyboardWillShow(notification:NSNotification)
+	func keyboardWillHide(notification:NSNotification)
+	func adjustingHeight(show:Bool, notification:NSNotification)
+	override func viewWillDisappear(animated: Bool)
+	func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus)
+	func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
+	func resign()
+	@IBAction func toggleMenu(sender: AnyObject)
+ContainerVC.swift
+	class ContainerVC : UIViewController
+	let leftMenuWidth:CGFloat = 260
+	@IBOutlet weak var scrollView: UIScrollView!
+	override func viewDidLoad()
+	override func viewDidAppear(animated: Bool)
+	deinit
+	func toggleMenu()
+	func closeMenuViaNotification()
+	func closeMenu(animated:Bool = false)
+	func openMenu()
+	class ContainerVC : UIViewController
+	func scrollViewDidScroll(scrollView: UIScrollView)
+	func scrollViewWillBeginDragging(scrollView: UIScrollView)
+	func scrollViewDidEndDecelerating(scrollView: UIScrollView)
+ActivityList.swift
+	class ActivityList : NSObject
+	var activities: [Activity]?
+	override init()
+	func asyncFetchList()
+	func updateList()
+	class MyActivityList: ActivityList
+	override func fetchList(complete:(status:Int) -> Void)
+	override func asyncFetchList()
+	override func updateList()
+	class NearbyActivityList: ActivityList, CLLocationManagerDelegate
+	var locationManager = CLLocationManager()
+	override func updateList()
+	func locationManager(manager: CLLocationManager, didFailWithError error: NSError)
+ButtonView.swift
+	class ButtonView: UIButton
+	override func awakeFromNib()
+ChangePasswordViewController.swift
+	class ChangePasswordViewController: UIViewController
+	var uid: String = "12"
+	var token: String = "YJFlOlzkWULSbBtMLGwEr"
+	@IBOutlet weak var currentPassword: UITextField!
+	@IBOutlet weak var newPassword: UITextField!
+	@IBOutlet weak var confirmPassword: UITextField!
+	@IBOutlet weak var resetBtn: UIButton!
+	@IBOutlet var superView: UIView!
+	override func viewDidLoad()
+	override func viewDidAppear(animated: Bool)
+	override func didReceiveMemoryWarning()
+	@IBAction func resetPassword(sender: AnyObject)
+TestUser.swift
+	class TestUser
+	var name:String
+	init(name:String)
+MainActivityViewController.swift
+	class MainActivityViewController: TabVCTemplate, UITableViewDelegate, UITableViewDataSource
+	@IBOutlet var superView: UIView!
+	@IBAction func toFilterBtn(sender: AnyObject)
+	var nearbyActivityList = NearbyActivityList()
+	var actId: Int?
+	var currentActivity : Activity?
+	static var avatarCache = NSCache()
+	override func viewDidLayoutSubviews()
+	override func viewDidLoad()
+	func firstLoad(complete:(isDone:Bool) -> Void)
+	func refresh(refreshControl: UIRefreshControl)
+	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+	@IBAction func toggleMenu(sender: AnyObject)
+ActivityHistoryViewController.swift
+	class ActivityHistoryViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
+	@IBOutlet weak var activityTableView: UITableView!
+	@IBOutlet weak var tableView: UITableView!
+	@IBAction func screenGesture(sender: UIScreenEdgePanGestureRecognizer)
+	var activities = [Activity]()
+	var activityList: MyActivityList!
+	override func viewDidLoad()
+	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+	override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!)
+GenderPickerViewController.swift
+	protocol GenderPickerViewControllerDelegate
+	func saveText(var strText : NSString)
+	class GenderPickerViewController: UIViewController
+	var genderText: String?
+	var delegate : GenderPickerViewControllerDelegate?
+	override func viewDidLoad()
+	@IBAction func chooseGender(sender: UIButton)
+	override func didReceiveMemoryWarning()
+CheckAuth.swift
+	class CheckAuth: UIViewController
+	override func viewWillAppear(animated: Bool)
+Encryption.swift
+	func generateAesKeyForPassword(password: String, salt: NSData, roundCount: Int?, error: NSErrorPointer) -> (key: NSData, actualRoundCount: UInt32)?
+User.swift
+	enum GENDER
+	case MALE
+	case FEMALE
+	class User
+	var _uid : Int!
+	var nickName: String!
+	var rating: Rating?
+	var avatar: String?
+	var email: String!
+	var address: String!
+	var password: String?
+	var gender: GENDER?
+	var selfDescription: String!
+	var preference: Preference?
+	var myActivityList: MyActivityList?
+	var nearbyActivityList: NearbyActivityList?
+	var uid : Int
+	init()
+	init(uid: Int, avatarStr: String)
+	func parseJson(json: JSON)
+	func downloadUserInfo(uid: String, token: String, completed: DownloadComplete)
+	func refresh (uid: String, token: String, complete: (status: Int) -> Void)
+	func viewProfile()
+	func updateProfile()
+	func viewMyActivities()
+	func changePassword()
+	func resetPassword()
+	func viewNearbyActivity()
+	func viewActivityDetail()
+	func postNewActivity()
+	func logout()
+AppDelegate.swift
+	class AppDelegate: UIResponder, UIApplicationDelegate
+	var window: UIWindow?
+	var tabBarController: UITabBarController?
+	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
+	func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool
+	func applicationWillResignActive(application: UIApplication)
+	func applicationDidEnterBackground(application: UIApplication)
+	func applicationWillEnterForeground(application: UIApplication)
+	func applicationDidBecomeActive(application: UIApplication)
+	func applicationWillTerminate(application: UIApplication)
+RatingTableViewController.swift
+	class RatingTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
+	@IBOutlet weak var tableView: UITableView!
+	@IBOutlet weak var subButton: UIButton!
+	@IBOutlet weak var ratingTableView: UITableView!
+	let defaults = NSUserDefaults.standardUserDefaults()
+	var ratings = [Rating]()
+	var my_uid: Int?
+	var act_id: Int?
+	var authtoken: String?
+	override func viewDidAppear(animated: Bool)
+	override func viewDidLoad()
+	override func didReceiveMemoryWarning()
+	func submitRating(data: NSObject, complete: (status: Int) -> Void)
+	func parseSubmitResultJSON(json: JSON) -> Int
+	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+	func parseMemberJSON(json: JSON, complete: (status: Int, members:[Rating]) -> Void)
+EditViewController.swift
+	class EditViewController: UIViewController
+	@IBOutlet weak var titleLbl: UILabel!
+	@IBOutlet weak var editboxField: UITextField!
+	var item: Int!
+	let defaults = NSUserDefaults.standardUserDefaults()
+	var userID: String!
+	var authtoken: String!
+	@IBAction func backBtnPressed(sender: AnyObject)
+	override func viewDidLoad()
+	override func viewDidAppear(animated: Bool)
+	override func didReceiveMemoryWarning()
+SingleAvatarCell.swift
+	@IBOutlet weak var imageAvatar: UIImageView!
+ProfileTableViewController.swift
+	class ProfileTableViewController: UITableViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate
+	@IBOutlet weak var tableview: UITableView!
+	@IBOutlet weak var avatar: UIImageView!
+	@IBOutlet weak var nameLbl: UILabel!
+	@IBOutlet weak var addressLbl: UILabel!
+	@IBOutlet weak var ratingView: ProfileRatingView!
+	@IBOutlet weak var emailLbl: UILabel!
+	@IBOutlet weak var descriptionLbl: UILabel!
+	var imagePickerController:UIImagePickerController?
+	var user = User()
+	let defaults = NSUserDefaults.standardUserDefaults()
+	var userID: String!
+	var authtoken: String!
+	override func viewDidLoad()
+	override func viewDidAppear(animated: Bool)
+	func updateCell()
+	func changeImage()
+	func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!)
+	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)

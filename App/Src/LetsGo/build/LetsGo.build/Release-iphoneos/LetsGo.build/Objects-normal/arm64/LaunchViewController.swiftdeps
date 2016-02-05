@@ -1,0 +1,447 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LauchViewController"
+provides-nominal:
+- "C6LetsGo19LauchViewController"
+provides-member:
+- ["C6LetsGo19LauchViewController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "viewDidAppear"
+depends-top-level:
+- "LauchViewController"
+- !private "StringLiteralType"
+- "Bool"
+- !private "=="
+- "UIViewController"
+- !private "print"
+- !private "NSUserDefaults"
+- !private "FBSDKAccessToken"
+depends-member:
+- !private ["PSs9AnyObject", "FBSDKAccessToken"]
+- !private ["PSs9AnyObject", "NSUserDefaults"]
+- !private ["PSs9AnyObject", "currentAccessToken"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "standardUserDefaults"]
+- !private ["PSs9AnyObject", "stringForKey"]
+- ["PSs9AnyObject", "viewDidAppear"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "FBSDKAccessToken"]
+- !private ["PSs11CVarArgType", "NSUserDefaults"]
+- !private ["PSs11CVarArgType", "currentAccessToken"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "standardUserDefaults"]
+- !private ["PSs11CVarArgType", "stringForKey"]
+- ["PSs11CVarArgType", "viewDidAppear"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "FBSDKAccessToken"]
+- !private ["PSs23CustomStringConvertible", "NSUserDefaults"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "currentAccessToken"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "standardUserDefaults"]
+- !private ["PSs23CustomStringConvertible", "stringForKey"]
+- ["PSs23CustomStringConvertible", "viewDidAppear"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "FBSDKAccessToken"]
+- !private ["PSs9Equatable", "NSUserDefaults"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "currentAccessToken"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "standardUserDefaults"]
+- !private ["PSs9Equatable", "stringForKey"]
+- ["PSs9Equatable", "viewDidAppear"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["CSo16FBSDKAccessToken", "currentAccessToken"]
+- !private ["CSo16FBSDKAccessToken", "deinit"]
+- !private ["PSo12FBSDKCopying", "currentAccessToken"]
+- !private ["PSs8Hashable", "FBSDKAccessToken"]
+- !private ["PSs8Hashable", "NSUserDefaults"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "currentAccessToken"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "standardUserDefaults"]
+- !private ["PSs8Hashable", "stringForKey"]
+- ["PSs8Hashable", "viewDidAppear"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- ["C6LetsGo19LauchViewController", "Bool"]
+- !private ["C6LetsGo19LauchViewController", "FBSDKAccessToken"]
+- !private ["C6LetsGo19LauchViewController", "NSUserDefaults"]
+- ["C6LetsGo19LauchViewController", "deinit"]
+- ["C6LetsGo19LauchViewController", "init"]
+- !private ["C6LetsGo19LauchViewController", "performSegueWithIdentifier"]
+- !private ["C6LetsGo19LauchViewController", "print"]
+- ["C6LetsGo19LauchViewController", "viewDidAppear"]
+- ["C6LetsGo19LauchViewController", "viewDidLoad"]
+- !private ["PSo8NSCoding", "FBSDKAccessToken"]
+- !private ["PSo8NSCoding", "NSUserDefaults"]
+- !private ["PSo8NSCoding", "currentAccessToken"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "viewDidAppear"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "currentAccessToken"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKAccessToken"]
+- !private ["PSo26NSExtensionRequestHandling", "NSUserDefaults"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FBSDKAccessToken"]
+- !private ["CSo8NSObject", "NSUserDefaults"]
+- !private ["CSo8NSObject", "currentAccessToken"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "standardUserDefaults"]
+- !private ["CSo8NSObject", "stringForKey"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "FBSDKAccessToken"]
+- !private ["PSo16NSObjectProtocol", "NSUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "currentAccessToken"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "standardUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "stringForKey"]
+- ["PSo16NSObjectProtocol", "viewDidAppear"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "currentAccessToken"]
+- !private ["CSo14NSUserDefaults", "standardUserDefaults"]
+- !private ["CSo14NSUserDefaults", "stringForKey"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKAccessToken"]
+- !private ["PSo21UIAppearanceContainer", "NSUserDefaults"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "viewDidAppear"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "FBSDKAccessToken"]
+- !private ["PSo18UIContentContainer", "NSUserDefaults"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "viewDidAppear"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "FBSDKAccessToken"]
+- !private ["PSo18UIFocusEnvironment", "NSUserDefaults"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "viewDidAppear"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FBSDKAccessToken"]
+- !private ["CSo11UIResponder", "NSUserDefaults"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "FBSDKAccessToken"]
+- !private ["PSo16UIStateRestoring", "NSUserDefaults"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "viewDidAppear"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "FBSDKAccessToken"]
+- !private ["PSo18UITraitEnvironment", "NSUserDefaults"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "viewDidAppear"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "FBSDKAccessToken"]
+- !private ["CSo16UIViewController", "NSUserDefaults"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "CSo16FBSDKAccessToken"
+- !private "PSo12FBSDKCopying"
+- "PSs8Hashable"
+- !private "SQ"
+- "C6LetsGo19LauchViewController"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo14NSUserDefaults"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/LetsGo/LetsGo_Bridging_Header.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCore.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSNetworking.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMantle.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMTLJSONAdapter.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMTLManagedObjectAdapter.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMTLModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMTLModel+NSCoding.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMTLValueTransformer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCredentialsProvider.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSServiceEnum.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSIdentityProvider.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSValidation.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSURLRequestSerialization.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSSerialization.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSURLResponseSerialization.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCategory.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSLogging.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSClientContext.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSSTS.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSSTSService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSSTSModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCognitoIdentity.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCognitoIdentityService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCognitoIdentityModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSBolts.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSExecutor.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSTask.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSTaskCompletionSource.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3Service.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3Model.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3TransferManager.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3PreSignedURL.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3TransferUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSDynamoDB/AWSDynamoDB.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSDynamoDB/AWSDynamoDBService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSDynamoDB/AWSDynamoDBModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSDynamoDB/AWSDynamoDBObjectMapper.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSQS/AWSSQS.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSQS/AWSSQSService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSQS/AWSSQSModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSNS/AWSSNS.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSNS/AWSSNSService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSNS/AWSSNSModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognito.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoHandlers.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoSyncService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoSyncModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoDataset.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoRecord.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoConflict.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonKeyDerivation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonDigest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonHMAC.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonCrypto.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonCryptor.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonCryptoError.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonSymmetricKeywrap.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GoogleMaps.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAddress.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCALayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUISettings.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteFilter.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteMatchFragment.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompletePrediction.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraPosition.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraUpdate.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCircle.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOverlay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCoordinateBounds.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSProjection.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeocoder.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeometryUtils.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPath.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGroundOverlay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorBuilding.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorDisplay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorLevel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView+Animation.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarker.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarkerLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMutablePath.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOrientation.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanorama.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCamera.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCameraUpdate.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLink.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaView.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlace.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihood.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihoodList.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePicker.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePickerConfig.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesClient.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesMacros.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUserAddedPlace.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceTypes.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolygon.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolyline.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSServices.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSSyncTileLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSTileLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSURLTileLayer.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "./FBSDKCoreKit.framework/Modules/module.modulemap"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "./FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceTypes.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacesMacros.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacesClient.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacePickerConfig.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacePicker.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlace.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+interface-hash: "2c810b1a967b9109c11216224b0f7e00"

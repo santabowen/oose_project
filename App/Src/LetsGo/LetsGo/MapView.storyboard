@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9PN-la-hx7">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View View Controller-->
+        <scene sceneID="GjY-do-s0U">
+            <objects>
+                <viewController storyboardIdentifier="MapView" id="9PN-la-hx7" customClass="MapViewViewController" customModule="LetsGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tV0-S2-1ME"/>
+                        <viewControllerLayoutGuide type="bottom" id="h9O-zk-Yow"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="loz-BI-zI1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17A-HL-3zr">
+                                <rect key="frame" x="28" y="560" width="31" height="24"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="OkX-42-QYy"/>
+                                </constraints>
+                                <state key="normal" title="New"/>
+                                <connections>
+                                    <segue destination="bmv-m6-8YB" kind="show" id="aVN-Rw-wgp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPh-jU-Tkh">
+                                <rect key="frame" x="542" y="560" width="30" height="24"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Pzu-az-qHD"/>
+                                </constraints>
+                                <state key="normal" title="List"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="17A-HL-3zr" firstAttribute="leading" secondItem="loz-BI-zI1" secondAttribute="leadingMargin" constant="8" id="gtE-37-bKr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IPh-jU-Tkh" secondAttribute="trailing" constant="8" id="mA9-Z7-RwJ"/>
+                            <constraint firstItem="h9O-zk-Yow" firstAttribute="top" secondItem="17A-HL-3zr" secondAttribute="bottom" constant="16" id="se5-7o-4Zb"/>
+                            <constraint firstItem="h9O-zk-Yow" firstAttribute="top" secondItem="IPh-jU-Tkh" secondAttribute="bottom" constant="16" id="x0W-u5-QFN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="C8K-mh-yND">
+                        <barButtonItem key="leftBarButtonItem" image="settingSign" id="OHK-Us-Lba">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="toggleMenu:" destination="9PN-la-hx7" id="ODz-Qn-ORC"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="filter" id="SoE-9F-Kok">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="toFilterBtn:" destination="9PN-la-hx7" id="aiT-vN-rNm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="VWl-M2-NRi" kind="show" identifier="mapToDetail" id="ugj-XV-TmM"/>
+                        <segue destination="hGT-dW-ugb" kind="push" identifier="profile" id="Rpj-6L-8vb"/>
+                        <segue destination="FoV-NJ-Fnw" kind="show" identifier="goMyActivity" id="d3R-Mt-7sx"/>
+                        <segue destination="Xtg-Hm-iKq" kind="show" identifier="goChangePW" id="SYs-wr-Ndm"/>
+                        <segue destination="Yly-aP-h2d" kind="show" identifier="goLogin" id="nKA-3w-TF3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dUi-1K-1l0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZrS-W8-Tk1">
+                    <rect key="frame" x="0.0" y="0.0" width="35" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <state key="normal" title="Filter">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <segue destination="Lga-j6-CQQ" kind="show" identifier="toFilter" id="dKu-QZ-HZR"/>
+                    </connections>
+                </button>
+            </objects>
+            <point key="canvasLocation" x="-1017" y="-769"/>
+        </scene>
+        <!--Filter-->
+        <scene sceneID="IP9-25-V0Y">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Filter" id="Lga-j6-CQQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b8t-nS-j0t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-443" y="-854"/>
+        </scene>
+        <!--ActivityDetail-->
+        <scene sceneID="lTm-Ay-07M">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="detailActivityView" storyboardName="ActivityDetail" id="VWl-M2-NRi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6dO-tg-ew4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426" y="-784"/>
+        </scene>
+        <!--NewActivity-->
+        <scene sceneID="BAf-dt-vrH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NewActivity" id="bmv-m6-8YB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hCR-FF-xuO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-515.5" y="-626"/>
+        </scene>
+        <!--Rating-->
+        <scene sceneID="fGr-mj-ALk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Rating" id="FoV-NJ-Fnw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HZd-C7-hcN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-478" y="-1014"/>
+        </scene>
+        <!--changePassword-->
+        <scene sceneID="cKs-WW-WC8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="changePassword" id="Xtg-Hm-iKq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PrF-7z-EHl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-415.5" y="-938"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="sBO-QV-Y8k">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="Yly-aP-h2d" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17c-oR-k77" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-399.5" y="-894"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="XnF-6w-MpX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="hGT-dW-ugb" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="SAA-db-FXF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="32G-iH-CBY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-447" y="-708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="p7F-Fc-ZEq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IXR-8i-brN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="K8x-g9-0I9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="barTintColor" red="0.4039215686" green="0.69019607839999997" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9PN-la-hx7" kind="relationship" relationship="rootViewController" id="6ex-g1-vO3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uHO-ZJ-0y4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1829" y="-769"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="filter" width="19" height="20"/>
+        <image name="settingSign" width="18" height="16"/>
+    </resources>
+</document>

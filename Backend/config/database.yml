@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: oose2015dev
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: oose2015test
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: oose2015prod
+  pool: 5

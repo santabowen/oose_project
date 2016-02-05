@@ -1,0 +1,737 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PopActivityPicker"
+provides-nominal:
+- "C6LetsGo17PopActivityPicker"
+provides-member:
+- ["C6LetsGo17PopActivityPicker", ""]
+provides-dynamic-lookup:
+- "activityPickerVC"
+- "presented"
+- "initActivityStr"
+- "popover"
+- "textField"
+- "dataChanged"
+- "pick"
+- "activityPickerVCDismissed"
+- "offset"
+- "adaptivePresentationStyleForPresentationController"
+depends-top-level:
+- "PopActivityPicker"
+- "StringLiteralType"
+- "UIPopoverPresentationControllerDelegate"
+- "NSObject"
+- "UITextField"
+- !private "CGSizeMake"
+- "UIViewController"
+- "PopActivityViewController"
+- "ActivityPickerViewControllerDelegate"
+- "BooleanLiteralType"
+- "CGFloat"
+- !private "!="
+- "String"
+- !private "CGRectMake"
+- "UIModalPresentationStyle"
+- "UIPopoverPresentationController"
+- "UIPresentationController"
+depends-member:
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "CGRectMake"]
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "CGSizeMake"]
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "PopActivityViewController"]
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "UIModalPresentationStyle"]
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "activityPickerVC"]
+- ["P6LetsGo36ActivityPickerViewControllerDelegate", "activityPickerVCDismissed"]
+- ["P6LetsGo36ActivityPickerViewControllerDelegate", "adaptivePresentationStyleForPresentationController"]
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "dataChanged"]
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "initActivityStr"]
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "offset"]
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "popover"]
+- ["P6LetsGo36ActivityPickerViewControllerDelegate", "popoverPresentationController"]
+- ["P6LetsGo36ActivityPickerViewControllerDelegate", "popoverPresentationControllerDidDismissPopover"]
+- ["P6LetsGo36ActivityPickerViewControllerDelegate", "popoverPresentationControllerShouldDismissPopover"]
+- ["P6LetsGo36ActivityPickerViewControllerDelegate", "prepareForPopoverPresentation"]
+- ["P6LetsGo36ActivityPickerViewControllerDelegate", "presentationController"]
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "presented"]
+- !private ["P6LetsGo36ActivityPickerViewControllerDelegate", "textField"]
+- ["P6LetsGo36ActivityPickerViewControllerDelegate", ""]
+- !private ["PSs9AnyObject", "CGRectMake"]
+- !private ["PSs9AnyObject", "CGSizeMake"]
+- !private ["PSs9AnyObject", "PopActivityViewController"]
+- !private ["PSs9AnyObject", "UIModalPresentationStyle"]
+- ["PSs9AnyObject", "activityPickerVC"]
+- ["PSs9AnyObject", "activityPickerVCDismissed"]
+- ["PSs9AnyObject", "adaptivePresentationStyleForPresentationController"]
+- !private ["PSs9AnyObject", "bounds"]
+- !private ["PSs9AnyObject", "currentActivity"]
+- ["PSs9AnyObject", "dataChanged"]
+- !private ["PSs9AnyObject", "delegate"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "initActivityStr"]
+- !private ["PSs9AnyObject", "modalPresentationStyle"]
+- ["PSs9AnyObject", "offset"]
+- ["PSs9AnyObject", "pick"]
+- ["PSs9AnyObject", "popover"]
+- ["PSs9AnyObject", "popoverPresentationController"]
+- ["PSs9AnyObject", "popoverPresentationControllerDidDismissPopover"]
+- ["PSs9AnyObject", "popoverPresentationControllerShouldDismissPopover"]
+- !private ["PSs9AnyObject", "preferredContentSize"]
+- ["PSs9AnyObject", "prepareForPopoverPresentation"]
+- !private ["PSs9AnyObject", "presentViewController"]
+- ["PSs9AnyObject", "presentationController"]
+- ["PSs9AnyObject", "presented"]
+- !private ["PSs9AnyObject", "sourceRect"]
+- !private ["PSs9AnyObject", "sourceView"]
+- ["PSs9AnyObject", "textField"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["PSs11CVarArgType", "CGRectMake"]
+- !private ["PSs11CVarArgType", "CGSizeMake"]
+- !private ["PSs11CVarArgType", "PopActivityViewController"]
+- !private ["PSs11CVarArgType", "UIModalPresentationStyle"]
+- ["PSs11CVarArgType", "activityPickerVC"]
+- ["PSs11CVarArgType", "activityPickerVCDismissed"]
+- ["PSs11CVarArgType", "adaptivePresentationStyleForPresentationController"]
+- !private ["PSs11CVarArgType", "bounds"]
+- !private ["PSs11CVarArgType", "currentActivity"]
+- ["PSs11CVarArgType", "dataChanged"]
+- !private ["PSs11CVarArgType", "delegate"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "initActivityStr"]
+- !private ["PSs11CVarArgType", "modalPresentationStyle"]
+- ["PSs11CVarArgType", "offset"]
+- ["PSs11CVarArgType", "pick"]
+- ["PSs11CVarArgType", "popover"]
+- ["PSs11CVarArgType", "popoverPresentationController"]
+- ["PSs11CVarArgType", "popoverPresentationControllerDidDismissPopover"]
+- ["PSs11CVarArgType", "popoverPresentationControllerShouldDismissPopover"]
+- !private ["PSs11CVarArgType", "preferredContentSize"]
+- ["PSs11CVarArgType", "prepareForPopoverPresentation"]
+- !private ["PSs11CVarArgType", "presentViewController"]
+- ["PSs11CVarArgType", "presentationController"]
+- ["PSs11CVarArgType", "presented"]
+- !private ["PSs11CVarArgType", "sourceRect"]
+- !private ["PSs11CVarArgType", "sourceView"]
+- ["PSs11CVarArgType", "textField"]
+- ["PSs11CVarArgType", ""]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "CGRectMake"]
+- !private ["PSs23CustomStringConvertible", "CGSizeMake"]
+- !private ["PSs23CustomStringConvertible", "PopActivityViewController"]
+- !private ["PSs23CustomStringConvertible", "UIModalPresentationStyle"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "activityPickerVC"]
+- ["PSs23CustomStringConvertible", "activityPickerVCDismissed"]
+- ["PSs23CustomStringConvertible", "adaptivePresentationStyleForPresentationController"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
+- !private ["PSs23CustomStringConvertible", "currentActivity"]
+- ["PSs23CustomStringConvertible", "dataChanged"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "initActivityStr"]
+- !private ["PSs23CustomStringConvertible", "modalPresentationStyle"]
+- ["PSs23CustomStringConvertible", "offset"]
+- ["PSs23CustomStringConvertible", "pick"]
+- ["PSs23CustomStringConvertible", "popover"]
+- ["PSs23CustomStringConvertible", "popoverPresentationController"]
+- ["PSs23CustomStringConvertible", "popoverPresentationControllerDidDismissPopover"]
+- ["PSs23CustomStringConvertible", "popoverPresentationControllerShouldDismissPopover"]
+- !private ["PSs23CustomStringConvertible", "preferredContentSize"]
+- ["PSs23CustomStringConvertible", "prepareForPopoverPresentation"]
+- !private ["PSs23CustomStringConvertible", "presentViewController"]
+- ["PSs23CustomStringConvertible", "presentationController"]
+- ["PSs23CustomStringConvertible", "presented"]
+- !private ["PSs23CustomStringConvertible", "sourceRect"]
+- !private ["PSs23CustomStringConvertible", "sourceView"]
+- ["PSs23CustomStringConvertible", "textField"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGRectMake"]
+- !private ["PSs9Equatable", "CGSizeMake"]
+- !private ["PSs9Equatable", "None"]
+- !private ["PSs9Equatable", "PopActivityViewController"]
+- !private ["PSs9Equatable", "Popover"]
+- !private ["PSs9Equatable", "UIModalPresentationStyle"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "activityPickerVC"]
+- ["PSs9Equatable", "activityPickerVCDismissed"]
+- ["PSs9Equatable", "adaptivePresentationStyleForPresentationController"]
+- !private ["PSs9Equatable", "bounds"]
+- !private ["PSs9Equatable", "currentActivity"]
+- ["PSs9Equatable", "dataChanged"]
+- !private ["PSs9Equatable", "delegate"]
+- !private ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "initActivityStr"]
+- !private ["PSs9Equatable", "modalPresentationStyle"]
+- ["PSs9Equatable", "offset"]
+- ["PSs9Equatable", "pick"]
+- ["PSs9Equatable", "popover"]
+- ["PSs9Equatable", "popoverPresentationController"]
+- ["PSs9Equatable", "popoverPresentationControllerDidDismissPopover"]
+- ["PSs9Equatable", "popoverPresentationControllerShouldDismissPopover"]
+- !private ["PSs9Equatable", "preferredContentSize"]
+- ["PSs9Equatable", "prepareForPopoverPresentation"]
+- !private ["PSs9Equatable", "presentViewController"]
+- ["PSs9Equatable", "presentationController"]
+- ["PSs9Equatable", "presented"]
+- !private ["PSs9Equatable", "size"]
+- !private ["PSs9Equatable", "sourceRect"]
+- !private ["PSs9Equatable", "sourceView"]
+- ["PSs9Equatable", "textField"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "CGRectMake"]
+- !private ["PSs8Hashable", "CGSizeMake"]
+- !private ["PSs8Hashable", "None"]
+- !private ["PSs8Hashable", "PopActivityViewController"]
+- !private ["PSs8Hashable", "Popover"]
+- !private ["PSs8Hashable", "UIModalPresentationStyle"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "activityPickerVC"]
+- ["PSs8Hashable", "activityPickerVCDismissed"]
+- ["PSs8Hashable", "adaptivePresentationStyleForPresentationController"]
+- !private ["PSs8Hashable", "bounds"]
+- !private ["PSs8Hashable", "currentActivity"]
+- ["PSs8Hashable", "dataChanged"]
+- !private ["PSs8Hashable", "delegate"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "initActivityStr"]
+- !private ["PSs8Hashable", "modalPresentationStyle"]
+- ["PSs8Hashable", "offset"]
+- ["PSs8Hashable", "pick"]
+- ["PSs8Hashable", "popover"]
+- ["PSs8Hashable", "popoverPresentationController"]
+- ["PSs8Hashable", "popoverPresentationControllerDidDismissPopover"]
+- ["PSs8Hashable", "popoverPresentationControllerShouldDismissPopover"]
+- !private ["PSs8Hashable", "preferredContentSize"]
+- ["PSs8Hashable", "prepareForPopoverPresentation"]
+- !private ["PSs8Hashable", "presentViewController"]
+- ["PSs8Hashable", "presentationController"]
+- ["PSs8Hashable", "presented"]
+- !private ["PSs8Hashable", "sourceRect"]
+- !private ["PSs8Hashable", "sourceView"]
+- ["PSs8Hashable", "textField"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "currentActivity"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "modalPresentationStyle"]
+- !private ["PSo8NSCoding", "popoverPresentationController"]
+- !private ["PSo8NSCoding", "preferredContentSize"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "currentActivity"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "modalPresentationStyle"]
+- !private ["PSo26NSExtensionRequestHandling", "popoverPresentationController"]
+- !private ["PSo26NSExtensionRequestHandling", "preferredContentSize"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGRectMake"]
+- !private ["CSo8NSObject", "CGSizeMake"]
+- ["CSo8NSObject", "PopActivityPickerCallback"]
+- ["CSo8NSObject", "PopActivityViewController"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIModalPresentationStyle"]
+- ["CSo8NSObject", "UIPopoverPresentationController"]
+- ["CSo8NSObject", "UIPresentationController"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "activityPickerVC"]
+- ["CSo8NSObject", "activityPickerVCDismissed"]
+- ["CSo8NSObject", "adaptivePresentationStyleForPresentationController"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "currentActivity"]
+- ["CSo8NSObject", "dataChanged"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initActivityStr"]
+- !private ["CSo8NSObject", "modalPresentationStyle"]
+- ["CSo8NSObject", "offset"]
+- ["CSo8NSObject", "pick"]
+- ["CSo8NSObject", "popover"]
+- ["CSo8NSObject", "popoverPresentationController"]
+- ["CSo8NSObject", "popoverPresentationControllerDidDismissPopover"]
+- ["CSo8NSObject", "popoverPresentationControllerShouldDismissPopover"]
+- !private ["CSo8NSObject", "preferredContentSize"]
+- ["CSo8NSObject", "prepareForPopoverPresentation"]
+- !private ["CSo8NSObject", "presentViewController"]
+- ["CSo8NSObject", "presentationController"]
+- ["CSo8NSObject", "presented"]
+- !private ["CSo8NSObject", "sourceRect"]
+- !private ["CSo8NSObject", "sourceView"]
+- ["CSo8NSObject", "textField"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "CGSizeMake"]
+- !private ["PSo16NSObjectProtocol", "PopActivityViewController"]
+- !private ["PSo16NSObjectProtocol", "UIModalPresentationStyle"]
+- ["PSo16NSObjectProtocol", "activityPickerVC"]
+- ["PSo16NSObjectProtocol", "activityPickerVCDismissed"]
+- ["PSo16NSObjectProtocol", "adaptivePresentationStyleForPresentationController"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "currentActivity"]
+- ["PSo16NSObjectProtocol", "dataChanged"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "initActivityStr"]
+- !private ["PSo16NSObjectProtocol", "modalPresentationStyle"]
+- ["PSo16NSObjectProtocol", "offset"]
+- ["PSo16NSObjectProtocol", "pick"]
+- ["PSo16NSObjectProtocol", "popover"]
+- ["PSo16NSObjectProtocol", "popoverPresentationController"]
+- ["PSo16NSObjectProtocol", "popoverPresentationControllerDidDismissPopover"]
+- ["PSo16NSObjectProtocol", "popoverPresentationControllerShouldDismissPopover"]
+- !private ["PSo16NSObjectProtocol", "preferredContentSize"]
+- ["PSo16NSObjectProtocol", "prepareForPopoverPresentation"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- ["PSo16NSObjectProtocol", "presentationController"]
+- ["PSo16NSObjectProtocol", "presented"]
+- !private ["PSo16NSObjectProtocol", "sourceRect"]
+- !private ["PSo16NSObjectProtocol", "sourceView"]
+- ["PSo16NSObjectProtocol", "textField"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- ["C6LetsGo17PopActivityPicker", "CGFloat"]
+- !private ["C6LetsGo17PopActivityPicker", "CGRectMake"]
+- !private ["C6LetsGo17PopActivityPicker", "CGSizeMake"]
+- ["C6LetsGo17PopActivityPicker", "PopActivityPickerCallback"]
+- ["C6LetsGo17PopActivityPicker", "PopActivityViewController"]
+- ["C6LetsGo17PopActivityPicker", "String"]
+- ["C6LetsGo17PopActivityPicker", "UIModalPresentationStyle"]
+- ["C6LetsGo17PopActivityPicker", "UIPopoverPresentationController"]
+- ["C6LetsGo17PopActivityPicker", "UIPresentationController"]
+- ["C6LetsGo17PopActivityPicker", "UITextField"]
+- ["C6LetsGo17PopActivityPicker", "UIViewController"]
+- ["C6LetsGo17PopActivityPicker", "activityPickerVC"]
+- ["C6LetsGo17PopActivityPicker", "activityPickerVCDismissed"]
+- ["C6LetsGo17PopActivityPicker", "adaptivePresentationStyleForPresentationController"]
+- ["C6LetsGo17PopActivityPicker", "dataChanged"]
+- ["C6LetsGo17PopActivityPicker", "deinit"]
+- ["C6LetsGo17PopActivityPicker", "init"]
+- ["C6LetsGo17PopActivityPicker", "initActivityStr"]
+- ["C6LetsGo17PopActivityPicker", "offset"]
+- ["C6LetsGo17PopActivityPicker", "pick"]
+- ["C6LetsGo17PopActivityPicker", "popover"]
+- ["C6LetsGo17PopActivityPicker", "popoverPresentationController"]
+- ["C6LetsGo17PopActivityPicker", "popoverPresentationControllerDidDismissPopover"]
+- ["C6LetsGo17PopActivityPicker", "popoverPresentationControllerShouldDismissPopover"]
+- ["C6LetsGo17PopActivityPicker", "prepareForPopoverPresentation"]
+- ["C6LetsGo17PopActivityPicker", "presentationController"]
+- ["C6LetsGo17PopActivityPicker", "presented"]
+- ["C6LetsGo17PopActivityPicker", "textField"]
+- !private ["C6LetsGo25PopActivityViewController", "currentActivity"]
+- !private ["C6LetsGo25PopActivityViewController", "delegate"]
+- !private ["C6LetsGo25PopActivityViewController", "init"]
+- !private ["C6LetsGo25PopActivityViewController", "modalPresentationStyle"]
+- !private ["C6LetsGo25PopActivityViewController", "popoverPresentationController"]
+- !private ["C6LetsGo25PopActivityViewController", "preferredContentSize"]
+- !private ["PSs16RawRepresentable", "None"]
+- !private ["PSs16RawRepresentable", "Popover"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "CGRectMake"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "CGSizeMake"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "PopActivityViewController"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "UIModalPresentationStyle"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "activityPickerVC"]
+- ["PSo40UIAdaptivePresentationControllerDelegate", "activityPickerVCDismissed"]
+- ["PSo40UIAdaptivePresentationControllerDelegate", "adaptivePresentationStyleForPresentationController"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "dataChanged"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "initActivityStr"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "offset"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "popover"]
+- ["PSo40UIAdaptivePresentationControllerDelegate", "popoverPresentationController"]
+- ["PSo40UIAdaptivePresentationControllerDelegate", "popoverPresentationControllerDidDismissPopover"]
+- ["PSo40UIAdaptivePresentationControllerDelegate", "popoverPresentationControllerShouldDismissPopover"]
+- ["PSo40UIAdaptivePresentationControllerDelegate", "prepareForPopoverPresentation"]
+- ["PSo40UIAdaptivePresentationControllerDelegate", "presentationController"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "presented"]
+- !private ["PSo40UIAdaptivePresentationControllerDelegate", "textField"]
+- ["PSo40UIAdaptivePresentationControllerDelegate", ""]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "currentActivity"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "modalPresentationStyle"]
+- !private ["PSo21UIAppearanceContainer", "popoverPresentationController"]
+- !private ["PSo21UIAppearanceContainer", "preferredContentSize"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- !private ["PSo21UIAppearanceContainer", "sourceRect"]
+- !private ["PSo21UIAppearanceContainer", "sourceView"]
+- !private ["PSo18UIContentContainer", "currentActivity"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "modalPresentationStyle"]
+- !private ["PSo18UIContentContainer", "popoverPresentationController"]
+- !private ["PSo18UIContentContainer", "preferredContentSize"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- !private ["PSo18UIContentContainer", "sourceRect"]
+- !private ["PSo18UIContentContainer", "sourceView"]
+- !private ["CSo9UIControl", "bounds"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "currentActivity"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "modalPresentationStyle"]
+- !private ["PSo18UIFocusEnvironment", "popoverPresentationController"]
+- !private ["PSo18UIFocusEnvironment", "preferredContentSize"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- !private ["PSo18UIFocusEnvironment", "sourceRect"]
+- !private ["PSo18UIFocusEnvironment", "sourceView"]
+- !private ["PSo10UIKeyInput", "bounds"]
+- !private ["OSC24UIModalPresentationStyle", "None"]
+- !private ["OSC24UIModalPresentationStyle", "Popover"]
+- !private ["PSo22UIPickerViewDataSource", "currentActivity"]
+- !private ["PSo22UIPickerViewDataSource", "delegate"]
+- !private ["PSo22UIPickerViewDataSource", "init"]
+- !private ["PSo22UIPickerViewDataSource", "modalPresentationStyle"]
+- !private ["PSo22UIPickerViewDataSource", "popoverPresentationController"]
+- !private ["PSo22UIPickerViewDataSource", "preferredContentSize"]
+- !private ["PSo20UIPickerViewDelegate", "currentActivity"]
+- !private ["PSo20UIPickerViewDelegate", "delegate"]
+- !private ["PSo20UIPickerViewDelegate", "init"]
+- !private ["PSo20UIPickerViewDelegate", "modalPresentationStyle"]
+- !private ["PSo20UIPickerViewDelegate", "popoverPresentationController"]
+- !private ["PSo20UIPickerViewDelegate", "preferredContentSize"]
+- !private ["CSo31UIPopoverPresentationController", "delegate"]
+- !private ["CSo31UIPopoverPresentationController", "sourceRect"]
+- !private ["CSo31UIPopoverPresentationController", "sourceView"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "CGRectMake"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "CGSizeMake"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "PopActivityViewController"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "UIModalPresentationStyle"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "activityPickerVC"]
+- ["PSo39UIPopoverPresentationControllerDelegate", "activityPickerVCDismissed"]
+- ["PSo39UIPopoverPresentationControllerDelegate", "adaptivePresentationStyleForPresentationController"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "dataChanged"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "initActivityStr"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "offset"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "popover"]
+- ["PSo39UIPopoverPresentationControllerDelegate", "popoverPresentationController"]
+- ["PSo39UIPopoverPresentationControllerDelegate", "popoverPresentationControllerDidDismissPopover"]
+- ["PSo39UIPopoverPresentationControllerDelegate", "popoverPresentationControllerShouldDismissPopover"]
+- ["PSo39UIPopoverPresentationControllerDelegate", "prepareForPopoverPresentation"]
+- ["PSo39UIPopoverPresentationControllerDelegate", "presentationController"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "presented"]
+- !private ["PSo39UIPopoverPresentationControllerDelegate", "textField"]
+- ["PSo39UIPopoverPresentationControllerDelegate", ""]
+- !private ["CSo24UIPresentationController", "delegate"]
+- !private ["CSo24UIPresentationController", "sourceRect"]
+- !private ["CSo24UIPresentationController", "sourceView"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "currentActivity"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "modalPresentationStyle"]
+- !private ["CSo11UIResponder", "popoverPresentationController"]
+- !private ["CSo11UIResponder", "preferredContentSize"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- !private ["PSo16UIStateRestoring", "currentActivity"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "modalPresentationStyle"]
+- !private ["PSo16UIStateRestoring", "popoverPresentationController"]
+- !private ["PSo16UIStateRestoring", "preferredContentSize"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- !private ["CSo11UITextField", "bounds"]
+- !private ["PSo11UITextInput", "bounds"]
+- !private ["PSo17UITextInputTraits", "bounds"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "currentActivity"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "modalPresentationStyle"]
+- !private ["PSo18UITraitEnvironment", "popoverPresentationController"]
+- !private ["PSo18UITraitEnvironment", "preferredContentSize"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "sourceRect"]
+- !private ["PSo18UITraitEnvironment", "sourceView"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo16UIViewController", "currentActivity"]
+- !private ["CSo16UIViewController", "delegate"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "modalPresentationStyle"]
+- !private ["CSo16UIViewController", "popoverPresentationController"]
+- !private ["CSo16UIViewController", "preferredContentSize"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "bounds"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "size"]
+depends-nominal:
+- "P6LetsGo36ActivityPickerViewControllerDelegate"
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "PSs11CVarArgType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- "C6LetsGo17PopActivityPicker"
+- !private "C6LetsGo25PopActivityViewController"
+- !private "PSs16RawRepresentable"
+- !private "VSs12StaticString"
+- !private "SS"
+- !private "PSo29UIAccessibilityIdentification"
+- "PSo40UIAdaptivePresentationControllerDelegate"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- !private "OSC24UIModalPresentationStyle"
+- !private "PSo22UIPickerViewDataSource"
+- !private "PSo20UIPickerViewDelegate"
+- !private "CSo31UIPopoverPresentationController"
+- "PSo39UIPopoverPresentationControllerDelegate"
+- !private "CSo24UIPresentationController"
+- !private "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/LetsGo/LetsGo_Bridging_Header.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCore.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSNetworking.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMantle.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMTLJSONAdapter.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMTLManagedObjectAdapter.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMTLModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMTLModel+NSCoding.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSMTLValueTransformer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCredentialsProvider.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSServiceEnum.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSIdentityProvider.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSValidation.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSURLRequestSerialization.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSSerialization.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSURLResponseSerialization.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCategory.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSLogging.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSClientContext.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSSTS.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSSTSService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSSTSModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCognitoIdentity.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCognitoIdentityService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSCognitoIdentityModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSBolts.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSExecutor.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSTask.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCore/AWSTaskCompletionSource.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3Service.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3Model.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3TransferManager.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3PreSignedURL.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSS3/AWSS3TransferUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSDynamoDB/AWSDynamoDB.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSDynamoDB/AWSDynamoDBService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSDynamoDB/AWSDynamoDBModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSDynamoDB/AWSDynamoDBObjectMapper.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSQS/AWSSQS.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSQS/AWSSQSService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSQS/AWSSQSModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSNS/AWSSNS.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSNS/AWSSNSService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSSNS/AWSSNSModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognito.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoHandlers.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoSyncService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoSyncModel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoDataset.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoRecord.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/AWSCognito/AWSCognitoConflict.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonKeyDerivation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonDigest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonHMAC.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonCrypto.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonCryptor.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonCryptoError.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/CommonCrypto/CommonSymmetricKeywrap.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GoogleMaps.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAddress.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCALayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUISettings.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteFilter.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteMatchFragment.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompletePrediction.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraPosition.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraUpdate.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCircle.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOverlay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCoordinateBounds.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSProjection.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeocoder.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeometryUtils.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPath.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGroundOverlay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorBuilding.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorDisplay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorLevel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView+Animation.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarker.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarkerLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMutablePath.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOrientation.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanorama.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCamera.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCameraUpdate.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLink.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaView.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlace.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihood.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihoodList.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePicker.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePickerConfig.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesClient.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesMacros.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUserAddedPlace.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceTypes.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolygon.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolyline.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSServices.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSSyncTileLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSTileLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSURLTileLayer.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "./FBSDKCoreKit.framework/Modules/module.modulemap"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "./FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceTypes.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacesMacros.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacesClient.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacePickerConfig.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacePicker.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlace.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/chenwang/Documents/GitRep/2015-group-5/Code/App/Src/LetsGo/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+interface-hash: "ba8486abe7f2a0ee1a868bc551a1ae67"
